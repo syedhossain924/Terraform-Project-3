@@ -8,7 +8,7 @@ resource "aws_instance" "RHEL-Server" {
   instance_type = "t2.micro"
   key_name      = "VS_Keypair"
   tags = {
-    Name = "RHEL-Server"
+    Name = "RHEL-Server2"
   }
   root_block_device {
     volume_size = 15 
